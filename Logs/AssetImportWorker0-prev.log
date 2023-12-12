@@ -1,23 +1,32 @@
+Unity Editor version:    2022.3.14f1 (eff2de9070d8)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #14-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 14 14:59:49 UTC 2023
+Kernel version:          6.5.0-14-generic
+Architecture:            x86_64
+Available memory:        15381 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ru' Physical Memory: 16315 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/World-War-online
+/home/svatoslav/Downloads/World-War-online
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49413
-Successfully changed project path to: D:/World-War-online
-D:/World-War-online
+33657
+Successfully changed project path to: /home/svatoslav/Downloads/World-War-online
+/home/svatoslav/Downloads/World-War-online
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -39,6 +48,8 @@ D:/World-War-online
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -47,1264 +58,193 @@ D:/World-War-online
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Unable to join player connection multicast group.
-Refreshing native plugins compatible for Editor in 176.32 ms, found 3 plugins.
+Player connection [140645977940928] Host "[IP] 192.168.2.18 [Port] 0 [Flags] 2 [Guid] 3583112160 [EditorId] 3583112160 [Version] 1048832 [Id] LinuxEditor(16,192.168.2.18) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140645977940928] Host "[IP] 192.168.2.18 [Port] 0 [Flags] 2 [Guid] 3583112160 [EditorId] 3583112160 [Version] 1048832 [Id] LinuxEditor(16,192.168.2.18) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 2.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/World-War-online/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
-    Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.2737
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path /home/svatoslav/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/svatoslav/Downloads/World-War-online/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon Graphics (renoir, LLVM 15.0.7, DRM 3.54, 6.5.0-14-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex
+_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anis
+otropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OE
+S_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -682661632
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Mono path[0] = '/home/svatoslav/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = '/home/svatoslav/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/svatoslav/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004117 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /home/svatoslav/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/svatoslav/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.009306 seconds.
+- Loaded All Assemblies, in  0.271 seconds
+Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 98.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Android Extension - Scanning For ADB Devices 371 ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Domain Reload Profiling:
-	ReloadAssembly (822ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (606ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.004341 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\World-War-online\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\World-War-online\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.401 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1402ms)
-		BeginReloadAssembly (262ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (140ms)
-		EndReloadAssembly (990ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (439ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
+- Finished resetting the current domain, in  0.646 seconds
+Domain Reload Profiling: 917ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (463ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.506 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 968ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (464ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3839.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 4.260100 ms (FindLiveObjects: 0.470800 ms CreateObjectMapping: 0.143100 ms MarkObjects: 3.448200 ms  DeleteObjects: 0.196800 ms)
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (47.6 KB). Loaded Objects now: 3597.
+Memory consumption went from 124.5 MB to 124.5 MB.
+Total: 3.501593 ms (FindLiveObjects: 0.212129 ms CreateObjectMapping: 0.098215 ms MarkObjects: 2.987296 ms  DeleteObjects: 0.203272 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 46692.325358 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.016317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.016876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.537564 seconds.
-  path: Assets/Scenes/MapWar1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MapWar1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e67047232a31703c0c7989e53a8de5') in 0.010148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1987.035240 seconds.
-  path: Assets/PolygonWarMap
-  artifactKey: Guid(9218b1f71524b774eb4f88160d0d1eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap using Guid(9218b1f71524b774eb4f88160d0d1eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa3de86ef3de36bda769619a7f5315a') in 0.012660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.785594 seconds.
-  path: Assets/PolygonWarMap/Scenes
-  artifactKey: Guid(81c47d9dc138f964cabc79fc86c9b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Scenes using Guid(81c47d9dc138f964cabc79fc86c9b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0312e12abf565c5cf46ec09afc0d610a') in 0.008542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.903761 seconds.
-  path: Assets/PolygonWarMap/Scenes/Demo.unity
-  artifactKey: Guid(0dd91d20abc56a94d8f1730f74252c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Scenes/Demo.unity using Guid(0dd91d20abc56a94d8f1730f74252c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8380eddfe2cf507cebf308e99fa153c') in 0.008316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.441212 seconds.
-  path: Assets/PolygonWarMap/Scenes/DemoSettings.lighting
-  artifactKey: Guid(520975a99bed70b4899d59592b992e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Scenes/DemoSettings.lighting using Guid(520975a99bed70b4899d59592b992e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'b51ddaf9ac78c548aa12486cab8e7f6f') in 0.046283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.944733 seconds.
-  path: Assets/PolygonWarMap/Models/Characters_WW1.fbx
-  artifactKey: Guid(c8879c3f0a0a9d941928685c6e5ad271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/Characters_WW1.fbx using Guid(c8879c3f0a0a9d941928685c6e5ad271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd208d43ced45042427937782816da9b') in 0.605639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_03.fbx
-  artifactKey: Guid(1118d9ba12986f44f85bfd0db60c75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_03.fbx using Guid(1118d9ba12986f44f85bfd0db60c75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba6209049ff4fd2080a8d12792f0401') in 0.042908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Hat_03.fbx
-  artifactKey: Guid(54123f65cc8aab2449c3fc967321f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Hat_03.fbx using Guid(54123f65cc8aab2449c3fc967321f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325c35764acefd14484c293cb652d5eb') in 0.036369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_02_Dirt.fbx
-  artifactKey: Guid(389d0710619dc4c42a2958114e6f8881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_02_Dirt.fbx using Guid(389d0710619dc4c42a2958114e6f8881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a01f8bf31c7a950b2099bc9ed2e3990') in 0.033300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_05.fbx
-  artifactKey: Guid(5436cc0cefc65144eab9cd78de7bfa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_05.fbx using Guid(5436cc0cefc65144eab9cd78de7bfa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b625032415b7635c704de2d0e4be26cc') in 0.041949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_01.fbx
-  artifactKey: Guid(96fdef73e4f1fcf48b7e9b96bcd52c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_01.fbx using Guid(96fdef73e4f1fcf48b7e9b96bcd52c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b499088bfcb3b6c4e53997784ed573') in 0.028576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_02.fbx
-  artifactKey: Guid(5c2187d09292da74cbb56f4b73ac6121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_02.fbx using Guid(5c2187d09292da74cbb56f4b73ac6121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e006a5c3d708a5343a815cea0881d889') in 0.028267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Models/SkyDome.fbx
-  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a1ebd761a3e0901d086aa95909de9') in 0.079757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Helmet_03.fbx
-  artifactKey: Guid(6f945575d76c3324996bd25ed3f6e190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Helmet_03.fbx using Guid(6f945575d76c3324996bd25ed3f6e190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54d3cf98d5f210ba0a9a215bf0e5989') in 0.034022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Zigzag_01.fbx
-  artifactKey: Guid(5fc44a41ac09daf4db9cf3bcb2ad0bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Zigzag_01.fbx using Guid(5fc44a41ac09daf4db9cf3bcb2ad0bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679b97ccba4c44c55a5d60cf5aab712c') in 0.034715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Corner_01.fbx
-  artifactKey: Guid(593f4cc3d60085a41b504157a791413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Corner_01.fbx using Guid(593f4cc3d60085a41b504157a791413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13eba51303fd099a0d7d9332f283843a') in 0.033755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Pilot_Torso_01.fbx
-  artifactKey: Guid(44ce85fc27432db40818d397717a2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Pilot_Torso_01.fbx using Guid(44ce85fc27432db40818d397717a2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ccdf31670d54d5a6ea664b8dfc2019') in 0.039528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_Mask_Gas_01.fbx
-  artifactKey: Guid(e45b782cdc65c3542ba942eb404872fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_Mask_Gas_01.fbx using Guid(e45b782cdc65c3542ba942eb404872fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68eb88905fb3f833514368350873152') in 0.046193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Helmet_01.fbx
-  artifactKey: Guid(43418bd36b0979945a19e5cc9ef87de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Helmet_01.fbx using Guid(43418bd36b0979945a19e5cc9ef87de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3326849fec00c3797263eb8331d88a5e') in 0.036325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Tree_Dead_04.fbx
-  artifactKey: Guid(757c59bd92b9a2049b5be6d28001a17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Tree_Dead_04.fbx using Guid(757c59bd92b9a2049b5be6d28001a17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb022eeb5842947a70ae4b0d8b31b90') in 0.030208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_Hat_Strap_01.fbx
-  artifactKey: Guid(5c2b9d5a21f258949b4e00b480fd57fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_Hat_Strap_01.fbx using Guid(5c2b9d5a21f258949b4e00b480fd57fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143bc2e73ad1cb019847c8433a7923d5') in 0.041640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_04.fbx
-  artifactKey: Guid(de1382d661ccee3428f3b3a8184d94d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_04.fbx using Guid(de1382d661ccee3428f3b3a8184d94d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a12660a43d0728d69e83598738129c') in 0.032020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Hat_02.fbx
-  artifactKey: Guid(07efd1f1ded797a47aecb11ee8e643ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Hat_02.fbx using Guid(07efd1f1ded797a47aecb11ee8e643ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a237f5d024360edc078b172d8ae823') in 0.027878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_03.fbx
-  artifactKey: Guid(2072597b3134e59488ed0b8395293bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_03.fbx using Guid(2072597b3134e59488ed0b8395293bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a827502b95fd49eda024c1833551eb') in 0.033219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Curve_01.fbx
-  artifactKey: Guid(4d93e87ee64418a4cb4071694d26cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Curve_01.fbx using Guid(4d93e87ee64418a4cb4071694d26cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e41a22ae9244223b10c51e1d947719a') in 0.029788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_02.fbx
-  artifactKey: Guid(a7794238c4ed8f046b654d369e1de16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_02.fbx using Guid(a7794238c4ed8f046b654d369e1de16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb236c95bf6984f76c22c36e0346f07a') in 0.027363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Crater_Deep_01.fbx
-  artifactKey: Guid(a91e7bbd793b38540be3a4d2fef373b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Crater_Deep_01.fbx using Guid(a91e7bbd793b38540be3a4d2fef373b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80464c29b02988a6e16cd148cc3c36fc') in 0.027234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Helmet_02.fbx
-  artifactKey: Guid(dcd4b997ef8b35c41860891f4927f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Helmet_02.fbx using Guid(dcd4b997ef8b35c41860891f4927f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdde777c179a713d062dbab8a620723') in 0.029029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Crater_NomansLand_01.fbx
-  artifactKey: Guid(d455e4e41cc0f6444a9ec3f12a4d6fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Crater_NomansLand_01.fbx using Guid(d455e4e41cc0f6444a9ec3f12a4d6fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1dcaaee0ff293196dd10878b0d663f') in 0.028675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Prop_Barricade_01.fbx
-  artifactKey: Guid(27485de95679f8e4f8433bf39d2bccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Prop_Barricade_01.fbx using Guid(27485de95679f8e4f8433bf39d2bccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd227dccd26da6f889fc51b0d93b300c8') in 0.027266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Crater_01.fbx
-  artifactKey: Guid(11410a6bbcaa57846987610682a38b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Crater_01.fbx using Guid(11410a6bbcaa57846987610682a38b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34f41c8caf8496d4beb04a72f48bfe1') in 0.030049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Long_01.fbx
-  artifactKey: Guid(44654ebaaad73ca49a5b4d8220a46479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Long_01.fbx using Guid(44654ebaaad73ca49a5b4d8220a46479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9c3384c026ba380867dbd2ed554522') in 0.033470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Dirt_01.fbx
-  artifactKey: Guid(8af5c38c595bffb4e95aeaa9da8c31bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Dirt_01.fbx using Guid(8af5c38c595bffb4e95aeaa9da8c31bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa85b852bb0f965620cc6f73bf4ea115') in 0.026076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Helmet_2.fbx
-  artifactKey: Guid(f98fa63dc7be02246b5ded2ebb502cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Helmet_2.fbx using Guid(f98fa63dc7be02246b5ded2ebb502cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b637f3a720491f273138c38d1343f6') in 0.027072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Crater_Water_02.fbx
-  artifactKey: Guid(cf08436b6a74dd34d95169d10be50445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Crater_Water_02.fbx using Guid(cf08436b6a74dd34d95169d10be50445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2698dee6dcebfc532c6a7f4d60e4b9f9') in 0.027368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_01_Dirt.fbx
-  artifactKey: Guid(7317d86269e529647a064b470dd5a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_01_Dirt.fbx using Guid(7317d86269e529647a064b470dd5a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72fd1e4e05039ec39d49393daf0cb1b') in 0.026743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Intersection_01.fbx
-  artifactKey: Guid(37c3a6fd207499744831b7ead127e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Intersection_01.fbx using Guid(37c3a6fd207499744831b7ead127e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51cf2a994010c3a83cb8d18f9528a19') in 0.034207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Helmet_1.fbx
-  artifactKey: Guid(8ef8a57993e99b7468245c1ac8455af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Helmet_1.fbx using Guid(8ef8a57993e99b7468245c1ac8455af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8a57526af36fb1f5cb7a60abf5f026') in 0.030766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Models/FX_Bullet_Trail 1.fbx
-  artifactKey: Guid(db57571d1db246141b8f1f94d2c082f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/FX_Bullet_Trail 1.fbx using Guid(db57571d1db246141b8f1f94d2c082f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3899fb9326519c95a9f643fb1439df80') in 0.030705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_01.fbx
-  artifactKey: Guid(8db630cba966a454cbb4814bc53ea1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_01.fbx using Guid(8db630cba966a454cbb4814bc53ea1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a56a54abcba2e3579bf8daf64cc591') in 0.031040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Pit_01.fbx
-  artifactKey: Guid(89c4ce06cafd9fe4d9726724a7ce4e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Pit_01.fbx using Guid(89c4ce06cafd9fe4d9726724a7ce4e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f31b309576d15b325ca8749c09581a') in 0.033503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Flame_FX 1.fbx
-  artifactKey: Guid(4ed1e89c4b6e5b743837b6deaac472e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Flame_FX 1.fbx using Guid(4ed1e89c4b6e5b743837b6deaac472e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6665cfcc8f9d5fb67a7f80cb79a56d5b') in 0.029438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_01.fbx
-  artifactKey: Guid(6d45bd8d0f5f39e478a9b4970ec06709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_01.fbx using Guid(6d45bd8d0f5f39e478a9b4970ec06709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0c76aaa81944c92681c2bef4eab757') in 0.030821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Crater_Water_01.fbx
-  artifactKey: Guid(e9949c6ec07992747b9d59cd68db009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Crater_Water_01.fbx using Guid(e9949c6ec07992747b9d59cd68db009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ffc8683edcb61178488eb278f78b65') in 0.031091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Prop_Barricade_03.fbx
-  artifactKey: Guid(014ab68788417be4196c6f60f3582ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Prop_Barricade_03.fbx using Guid(014ab68788417be4196c6f60f3582ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb11b7ed11f9ac5938b7f16205f0cc6') in 0.032873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Transition_01.fbx
-  artifactKey: Guid(4db16623f8f7edb4aa32065de484ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Transition_01.fbx using Guid(4db16623f8f7edb4aa32065de484ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cec259833312234546de002bec5d8e') in 0.033012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Transition_02.fbx
-  artifactKey: Guid(93151f5f76687464c9f64587e1305cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Transition_02.fbx using Guid(93151f5f76687464c9f64587e1305cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbecc17856b87f99c6dd13134131b49e') in 0.032836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Hat_01.fbx
-  artifactKey: Guid(84bb2a00fb4e6674c91ae3cf97fad518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_British_Hat_01.fbx using Guid(84bb2a00fb4e6674c91ae3cf97fad518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274b0fffcdf00649648219273a7376ab') in 0.029322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_01.fbx
-  artifactKey: Guid(94f150f73f911c04885d6e657bd27374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_01.fbx using Guid(94f150f73f911c04885d6e657bd27374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14aaa4028d8772c4dc400890e8d610d') in 0.030091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Bunker_01.fbx
-  artifactKey: Guid(cb376d600b5889240a9999ef281cc2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Bunker_01.fbx using Guid(cb376d600b5889240a9999ef281cc2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34b96d54d1ac7f50fff37d34008a45a') in 0.029026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_Mask_Gas_02.fbx
-  artifactKey: Guid(c194a7005e8fa4c41ae08336de99aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_Mask_Gas_02.fbx using Guid(c194a7005e8fa4c41ae08336de99aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d505dd17b1ac8f93f9e739ee7835d36') in 0.040568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_End_Crater_01.fbx
-  artifactKey: Guid(f533963bb82e2374db054f46b6b0044f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_End_Crater_01.fbx using Guid(f533963bb82e2374db054f46b6b0044f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654a6a181a8c893e8411add42190acc5') in 0.028371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Pole_01.fbx
-  artifactKey: Guid(57a502f549fad4a41a23f4699252044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Pole_01.fbx using Guid(57a502f549fad4a41a23f4699252044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53af3b2748a8cd5db781a45336b57a78') in 0.027190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_03.fbx
-  artifactKey: Guid(d9efa0dd56e04ff479e8948d9e42186e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_03.fbx using Guid(d9efa0dd56e04ff479e8948d9e42186e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d45c7dddb52d99f768109add77ed22') in 0.032246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_02.fbx
-  artifactKey: Guid(61d2904de959f0345a2f9ab8f4f9652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_02.fbx using Guid(61d2904de959f0345a2f9ab8f4f9652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ce62e847c36dc3bbd7c3be6f40168a') in 0.028705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_04.fbx
-  artifactKey: Guid(6c066d959e809d54e81ca8b0bf0d1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Mound_04.fbx using Guid(6c066d959e809d54e81ca8b0bf0d1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2679d209ae0d8a3cdf57d60d8ea6c8e8') in 0.030014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_French_Helmet_01.fbx
-  artifactKey: Guid(c8be72de025fa644e953799abb866f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_French_Helmet_01.fbx using Guid(c8be72de025fa644e953799abb866f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0961a1b359097fa4dfcc1909a1364182') in 0.028276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_End_01.fbx
-  artifactKey: Guid(9031dd2e9f9a6d54cb533bc89a7dd0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_End_01.fbx using Guid(9031dd2e9f9a6d54cb533bc89a7dd0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1dc1dc7a8728ddee09ed54788fcc2e') in 0.030307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Models/FX_Sphere_Puff_02.fbx
-  artifactKey: Guid(24a0a3ba1da839e4bbc2efaf632783bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/FX_Sphere_Puff_02.fbx using Guid(24a0a3ba1da839e4bbc2efaf632783bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e7396e518d4988c7098928a0e3417') in 0.030527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_End_02.fbx
-  artifactKey: Guid(75c3e0b96eff01247a3fa7339e0fd737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_End_02.fbx using Guid(75c3e0b96eff01247a3fa7339e0fd737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea6a5fb2b50cf9503ddc4583e1e6b94') in 0.028152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Hat_01.fbx
-  artifactKey: Guid(e2d7f4aea0bb40a4c8b11996f83c838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_German_Hat_01.fbx using Guid(e2d7f4aea0bb40a4c8b11996f83c838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8963b2b7a4a7c85f0c005351eb4d7f7c') in 0.026813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonWarMap/Models/FX_Sphere 1.fbx
-  artifactKey: Guid(060d0fd02b922ec4297ce5e1268ee0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/FX_Sphere 1.fbx using Guid(060d0fd02b922ec4297ce5e1268ee0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e07b5e40f68ccb80abf70505b54a1f') in 0.028721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_02.fbx
-  artifactKey: Guid(e03b10bb7ab3f7547b8576927a9ee757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Insert_02.fbx using Guid(e03b10bb7ab3f7547b8576927a9ee757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97d56e47ff241dd886da16745009e78') in 0.028590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Dugout_01.fbx
-  artifactKey: Guid(22f1d82df2b0b7b4aa9705eb5c923391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Straight_Dugout_01.fbx using Guid(22f1d82df2b0b7b4aa9705eb5c923391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df9a6c30cccf440ee4df42665d1d77') in 0.030627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Intersection_02.fbx
-  artifactKey: Guid(a8539fca3b0086049aed88d8e7a4d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Deep_Intersection_02.fbx using Guid(a8539fca3b0086049aed88d8e7a4d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c10f0b0d4ebd2d7149a0485ff9129c4') in 0.026646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_Stairs_01.fbx
-  artifactKey: Guid(c69a6ac78e9a1054c81a2ac394361f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Env_Trench_Firestep_Stairs_01.fbx using Guid(c69a6ac78e9a1054c81a2ac394361f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b369d65bc35f1f9cb8b4b1a41c59fe8b') in 0.026954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Chr_Attach_WW1_Pilot_Helmet_01.fbx
-  artifactKey: Guid(ab7a20ed737b7fc4e8c500682ff7acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Chr_Attach_WW1_Pilot_Helmet_01.fbx using Guid(ab7a20ed737b7fc4e8c500682ff7acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e4fcecd5209c35a5cd848e27a3944e') in 0.026599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Models/SM_Prop_Barricade_02.fbx
-  artifactKey: Guid(659942b2af97fc9438b1e987a012165a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Models/SM_Prop_Barricade_02.fbx using Guid(659942b2af97fc9438b1e987a012165a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1cd9ca8de3490785a0090d59413bba') in 0.028519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.323708 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons
-  artifactKey: Guid(4c52e5bf0ea330f4d99b061e06328779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons using Guid(4c52e5bf0ea330f4d99b061e06328779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec7e0e8865e5d96bc70f74122a0a9ea') in 0.010027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028111 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_AAGun_01.prefab
-  artifactKey: Guid(b0d462e44bf05604692d8f89f397132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_AAGun_01.prefab using Guid(b0d462e44bf05604692d8f89f397132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da179eeec3676f4f63a60022af00aa39') in 0.035047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_German_Rifle_01.prefab
-  artifactKey: Guid(d09d7444dc0e7af43bd4ea754b64e2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_German_Rifle_01.prefab using Guid(d09d7444dc0e7af43bd4ea754b64e2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f907c686e3f8715265f25d4a754d329') in 0.038836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_German_HeavyMachineGun_01.prefab
-  artifactKey: Guid(035c67154e773d441b27ccf192272f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_German_HeavyMachineGun_01.prefab using Guid(035c67154e773d441b27ccf192272f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f9edf0bbbd5fcc8aa292fafe7c59ff') in 0.031449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_British_HeavyMachineGun_Tripod_01.prefab
-  artifactKey: Guid(12206bea12fa9c74eb280a8311361647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_British_HeavyMachineGun_Tripod_01.prefab using Guid(12206bea12fa9c74eb280a8311361647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a354596105c692e8db7dcce41182aa90') in 0.026493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_British_Rifle_01.prefab
-  artifactKey: Guid(517626f676da0304fa21666563356502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_British_Rifle_01.prefab using Guid(517626f676da0304fa21666563356502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3471ff05a221394ab54571732648dc01') in 0.029840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_British_HeavyMachineGun_01.prefab
-  artifactKey: Guid(3de4176aa5f346842ac8c10eb3f42b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_British_HeavyMachineGun_01.prefab using Guid(3de4176aa5f346842ac8c10eb3f42b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1acecc3d5d4bdf887d3e4056a971993') in 0.033631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_German_HeavyMachineGun_Tripod_01.prefab
-  artifactKey: Guid(cf3129aa2e553ee47a1e98554a9b5a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Weapons/SM_Wep_German_HeavyMachineGun_Tripod_01.prefab using Guid(cf3129aa2e553ee47a1e98554a9b5a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15cef50e5d72f9dd3de91f7e8e6504d') in 0.032108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.307295 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_Explosion_Large.prefab
-  artifactKey: Guid(1b0dca3e2e1dabc468148aad222be955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_Explosion_Large.prefab using Guid(1b0dca3e2e1dabc468148aad222be955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d69c8e9f7b48aef65f196894a36965') in 0.027547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_Plane_B_Spawn_01.prefab
-  artifactKey: Guid(a9d3074e95ad9bd4f87e8296ba5e6c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_Plane_B_Spawn_01.prefab using Guid(a9d3074e95ad9bd4f87e8296ba5e6c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b96d08dba86c69d105fa7db27d5fcf') in 0.027941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_Plane_A_Spawn_Shooting_01.prefab
-  artifactKey: Guid(d3f0057854bc20648a95f249ab48087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_Plane_A_Spawn_Shooting_01.prefab using Guid(d3f0057854bc20648a95f249ab48087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b060d77dcd1d3647b3f03c5b6db25f') in 0.313914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_War_Gunshot_Background_AA_01.prefab
-  artifactKey: Guid(5b695401b19267845a90227576318280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_War_Gunshot_Background_AA_01.prefab using Guid(5b695401b19267845a90227576318280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d7984689d4eb975a4ab2a75034e3a0') in 0.029595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_War_Gunshot_Heavy_Repeating_Tracers_01.prefab
-  artifactKey: Guid(2ec80413e11b3d44d93faf528a24c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_War_Gunshot_Heavy_Repeating_Tracers_01.prefab using Guid(2ec80413e11b3d44d93faf528a24c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ac2733f67075b17ed8eb684b9a59dd') in 0.058629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_War_Gunshot_Heavy_Single_Tracers_01.prefab
-  artifactKey: Guid(1206a3a661c62ca44822cfec7f16ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_War_Gunshot_Heavy_Single_Tracers_01.prefab using Guid(1206a3a661c62ca44822cfec7f16ed11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d472e1479dc2d6104ada4d3625057d') in 0.039694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_Explosion_Small.prefab
-  artifactKey: Guid(7cfb562e2c0738b4fb9ea484b93b97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_Explosion_Small.prefab using Guid(7cfb562e2c0738b4fb9ea484b93b97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd24ed768a692b289ee473cea6e9ebf') in 0.028280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_Plane_A_Spawn_01.prefab
-  artifactKey: Guid(f8785e0bcae633947b8f16029c8b3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_Plane_A_Spawn_01.prefab using Guid(f8785e0bcae633947b8f16029c8b3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae613e0e8416cd9378398b401598bdc') in 0.030724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/FX_Plane_B_Spawn_Shooting_01.prefab
-  artifactKey: Guid(4092a57abdd0e5a41afb500dd1b9180a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/FX_Plane_B_Spawn_Shooting_01.prefab using Guid(4092a57abdd0e5a41afb500dd1b9180a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748eced1f359abc55e458ee447c4ca77') in 0.033090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX/SkyDome.prefab
-  artifactKey: Guid(1e6f6e94de2fd4f448617ae80971f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX/SkyDome.prefab using Guid(1e6f6e94de2fd4f448617ae80971f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919428d3a5f182dd06d3756fc6975bec') in 0.048404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.071991 seconds.
-  path: Assets/PolygonWarMap/Textures
-  artifactKey: Guid(1a2cee00e5a1d824cafb5b846f804ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Textures using Guid(1a2cee00e5a1d824cafb5b846f804ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba41a5df3aee2d88d956467e6b47a9f') in 0.011878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.342228 seconds.
-  path: Assets/PolygonWarMap/Prefabs
-  artifactKey: Guid(64387368f83cd05498748bec98d208ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs using Guid(64387368f83cd05498748bec98d208ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb5e476a5106c93d28011f71aa78df5') in 0.008956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.405909 seconds.
-  path: Assets/PolygonWarMap/Scenes/Demo.unity
-  artifactKey: Guid(0dd91d20abc56a94d8f1730f74252c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Scenes/Demo.unity using Guid(0dd91d20abc56a94d8f1730f74252c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70222319230f386eefe16dfacb4ae090') in 0.005471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.763074 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Artillery_01.prefab
-  artifactKey: Guid(3c94112a2053c1b43b8f864ad6e605a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Artillery_01.prefab using Guid(3c94112a2053c1b43b8f864ad6e605a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34a42a4f15a2322a3ba31855b3f7e55') in 0.035918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Plane_British_WW1_01.prefab
-  artifactKey: Guid(e6cbc9c33fffb254fb7106cf51fc0229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Plane_British_WW1_01.prefab using Guid(e6cbc9c33fffb254fb7106cf51fc0229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77245e4257b2b8715d0ee850efc3aa7d') in 0.032794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Artillery_01_Destroyed.prefab
-  artifactKey: Guid(6d86e118ae5c61645a2a26aeeb7a9a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Artillery_01_Destroyed.prefab using Guid(6d86e118ae5c61645a2a26aeeb7a9a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cfa01967979a91ee1aecd0c3b6e08e') in 0.037301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Blimp_Destroyed_02.prefab
-  artifactKey: Guid(988039e8b129fbd4c8525a120ce5effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Blimp_Destroyed_02.prefab using Guid(988039e8b129fbd4c8525a120ce5effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be25e9a7894a4b83c665d83085372c3') in 0.277384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_German_Tank_01.prefab
-  artifactKey: Guid(e532cd2f432f9af4984fa2495fbedac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_German_Tank_01.prefab using Guid(e532cd2f432f9af4984fa2495fbedac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1871336026e19427a9a7a0ef129b2a19') in 0.039064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Blimp_01.prefab
-  artifactKey: Guid(e92551dbdb690934c84d98b43b5ddd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Blimp_01.prefab using Guid(e92551dbdb690934c84d98b43b5ddd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497dee9c4cd49318cdc3967c556af811') in 0.029209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_British_Plane_01_Destroyed.prefab
-  artifactKey: Guid(7b4323f8e66063540a356090f39d28d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_British_Plane_01_Destroyed.prefab using Guid(7b4323f8e66063540a356090f39d28d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad05ead13b01405a91b00eff828c0670') in 0.027300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_British_Tank_01.prefab
-  artifactKey: Guid(1ddf5036a301b4445ad05a84b98e29c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_British_Tank_01.prefab using Guid(1ddf5036a301b4445ad05a84b98e29c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8979cdc749bfd5324fbf1adca7ea6b85') in 0.035558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Small_Tank_01_Destroyed.prefab
-  artifactKey: Guid(de01cf3303283514fb35f4f3bfc2b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Small_Tank_01_Destroyed.prefab using Guid(de01cf3303283514fb35f4f3bfc2b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c54cb5880557f09984c82bf16a8fe8f') in 0.031495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Plane_German_WW1_01.prefab
-  artifactKey: Guid(94c3d2d18443a5c47878839fe40d1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Plane_German_WW1_01.prefab using Guid(94c3d2d18443a5c47878839fe40d1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f987ddfa2143a573ee95b2387bb36dae') in 0.028460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_German_Tank_01_Destroyed.prefab
-  artifactKey: Guid(e1658a29be7956e4494a78803e6918cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_German_Tank_01_Destroyed.prefab using Guid(e1658a29be7956e4494a78803e6918cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e1507805724d0d32a5e8a9df430cd5') in 0.038089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Blimp_Destroyed_01.prefab
-  artifactKey: Guid(05986a443e644b444b2f5b0511813274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Blimp_Destroyed_01.prefab using Guid(05986a443e644b444b2f5b0511813274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435ce7ca9ed12c0e3714cd9f09618042') in 0.030194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_German_Plane_01_Destroyed.prefab
-  artifactKey: Guid(384d7371a017d974697166bc1f90ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_German_Plane_01_Destroyed.prefab using Guid(384d7371a017d974697166bc1f90ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2183f50fa7bce363fb43fe716cc1becb') in 0.025309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Small_Tank_01.prefab
-  artifactKey: Guid(08ee6c611b2390349b95e0193964f44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_Small_Tank_01.prefab using Guid(08ee6c611b2390349b95e0193964f44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ad9cdf154cce8da1a17ab84d97df3') in 0.036920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_British_Tank_01_Destroyed.prefab
-  artifactKey: Guid(0a664b3fbeeec59428278965573c1ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles/SM_Veh_British_Tank_01_Destroyed.prefab using Guid(0a664b3fbeeec59428278965573c1ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189787dbbcd0479787980c747e51cef8') in 0.030770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 798.303976 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters
-  artifactKey: Guid(380a471ac8b68f84595ec57a92ff2fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters using Guid(380a471ac8b68f84595ec57a92ff2fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce97619dba8bf7277dc53978beb0d755') in 0.009975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013838 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/Character_British_WW1_01.prefab
-  artifactKey: Guid(df3fb42583cca86499e4339f85269270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/Character_British_WW1_01.prefab using Guid(df3fb42583cca86499e4339f85269270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ccec1a61e1f58068a8589d931de5cf') in 0.187034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Helmet_2.prefab
-  artifactKey: Guid(e5aeaf50b2a887b49a983006cfbbdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Helmet_2.prefab using Guid(e5aeaf50b2a887b49a983006cfbbdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7232141bbcf615047d8a06259c2131a') in 0.037526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Helmet_1.prefab
-  artifactKey: Guid(69b123ea61ef5d04aba19de18fe532e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Helmet_1.prefab using Guid(69b123ea61ef5d04aba19de18fe532e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efc25ed9011a3bed6d3dc20e727fc0e') in 0.029331 seconds 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4104.925958 seconds.
+  path: Assets/PolygonWar/WarPostFX_PostProfile.asset
+  artifactKey: Guid(834241e5d1182ee44a6fdc5ea3d21a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/WarPostFX_PostProfile.asset using Guid(834241e5d1182ee44a6fdc5ea3d21a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8733b41b1717448f0739f165d4f538e8') in 0.003060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/Character_German_WW1_01.prefab
-  artifactKey: Guid(b366018a829fb3c49b627688467d7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/Character_German_WW1_01.prefab using Guid(b366018a829fb3c49b627688467d7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1486a174e57e114a33d79ea796a64337') in 0.054213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_Mask_Gas_02.prefab
-  artifactKey: Guid(9d09602474107674ca1598bfa1e3f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_Mask_Gas_02.prefab using Guid(9d09602474107674ca1598bfa1e3f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6e825089e7b3fa1b458a4c8cd93f42') in 0.291396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Hat_01.prefab
-  artifactKey: Guid(3565cde0e38803e46bbe3e52c92dd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Hat_01.prefab using Guid(3565cde0e38803e46bbe3e52c92dd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05275dc2124abab31a0ebb40c27e8b5') in 0.059137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Hat_01.prefab
-  artifactKey: Guid(6d0500616a6f93344b9b9b0a00365d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Hat_01.prefab using Guid(6d0500616a6f93344b9b9b0a00365d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501c92f61daba573d34a7a2cede7a9e4') in 0.036052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Hat_03.prefab
-  artifactKey: Guid(75a78ee8c583b1148a9d2494fe7b9df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Hat_03.prefab using Guid(75a78ee8c583b1148a9d2494fe7b9df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee21d531177360ece67ae02bb02ffbbc') in 0.068321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Helmet_01.prefab
-  artifactKey: Guid(e21f094d9b6e9144eaf09913ebc87bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Helmet_01.prefab using Guid(e21f094d9b6e9144eaf09913ebc87bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55a840d94a6c9c0d84533c21674ca0a') in 0.041429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_French_Helmet_01.prefab
-  artifactKey: Guid(491b86b0653a8f242873d4fbc773bd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_French_Helmet_01.prefab using Guid(491b86b0653a8f242873d4fbc773bd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc2cbece836a9cdc2419bf16507c896') in 0.068157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Pilot_Torso_01.prefab
-  artifactKey: Guid(a0e0452a528624649b37bbee5c8840fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Pilot_Torso_01.prefab using Guid(a0e0452a528624649b37bbee5c8840fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abef54b63c82ff5b14fb9bb577fef44e') in 0.053929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Hat_02.prefab
-  artifactKey: Guid(684793f5b2479d1438af6a26e7caeaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Hat_02.prefab using Guid(684793f5b2479d1438af6a26e7caeaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690e5d7fd7f3643392017f4afa4125de') in 0.056984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_WW1_Pilot_Helmet_01.prefab
-  artifactKey: Guid(91450e7322e489d4d801d43cf831bc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_WW1_Pilot_Helmet_01.prefab using Guid(91450e7322e489d4d801d43cf831bc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661830a19558806e65b5b9b2d3afbec5') in 0.026055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_Hat_Strap_01.prefab
-  artifactKey: Guid(b593b94cc18896d4e96fb634fbfa60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_Hat_Strap_01.prefab using Guid(b593b94cc18896d4e96fb634fbfa60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24615d49aeccfb2d7e8f43a5d951aa6a') in 0.024182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Helmet_03.prefab
-  artifactKey: Guid(804f80656ed8c68428c9fcb72c2df84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_German_Helmet_03.prefab using Guid(804f80656ed8c68428c9fcb72c2df84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c4395329ba3d85d70dad9d726adbf') in 0.033855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Helmet_02.prefab
-  artifactKey: Guid(e3d92039c9d724247b5116893e316410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_British_Helmet_02.prefab using Guid(e3d92039c9d724247b5116893e316410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b09675cdab2cc5094878b54491a0ee3') in 0.041885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_Mask_Gas_01.prefab
-  artifactKey: Guid(2b0832d3268ed0441ac2fdd68d8b9ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Characters/SM_Chr_Attach_Mask_Gas_01.prefab using Guid(2b0832d3268ed0441ac2fdd68d8b9ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b626f43655095dbfad7772f4b04cf001') in 0.056706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.887987 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment
-  artifactKey: Guid(db224a8410f5a3b4790f31107ff8dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment using Guid(db224a8410f5a3b4790f31107ff8dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783fe38fa89e61001fbb61e95cefeaf3') in 0.009631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Deep_01.prefab
-  artifactKey: Guid(586fd5939a0d6e540b0f1275f86afbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Deep_01.prefab using Guid(586fd5939a0d6e540b0f1275f86afbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0b6a9321bc75b834937b38e3e9dcd6') in 0.055729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Water_01.prefab
-  artifactKey: Guid(865130b66a69a7441a2026963d3e83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Water_01.prefab using Guid(865130b66a69a7441a2026963d3e83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849f04e380299b80c7bfac81eb6e7a95') in 0.056500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_End_Crater_01.prefab
-  artifactKey: Guid(2b8e97e551bc37d46acc3f11862fff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_End_Crater_01.prefab using Guid(2b8e97e551bc37d46acc3f11862fff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb08bb7b63799f4e7671755a65770708') in 0.085515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Pit_01.prefab
-  artifactKey: Guid(faab5677c9d39a6449e6fe0e797fd46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Pit_01.prefab using Guid(faab5677c9d39a6449e6fe0e797fd46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3c04fac3717446c5a0c866f0ceee70') in 0.068118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Transition_02.prefab
-  artifactKey: Guid(6a3fc6a9937565d4c8202dc81bc7708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Transition_02.prefab using Guid(6a3fc6a9937565d4c8202dc81bc7708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e789c5ce846404ad5bc194b24b7c075d') in 0.062292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_02.prefab
-  artifactKey: Guid(6685504cd5530e64b92ed3ac2ccc4032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_02.prefab using Guid(6685504cd5530e64b92ed3ac2ccc4032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa384de864e58914eaefc54d29e43e3') in 0.056069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_02.prefab
-  artifactKey: Guid(8a9adb8e66d934745b33fabb6623fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_02.prefab using Guid(8a9adb8e66d934745b33fabb6623fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507c02c2b2c5e24ce2817909f8b4bfdb') in 0.036389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Bridge_02.prefab
-  artifactKey: Guid(7c8e3955b6bb254429a0acf2dd1db665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Bridge_02.prefab using Guid(7c8e3955b6bb254429a0acf2dd1db665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfbacd493a8a2166161dac1a425d915') in 0.027700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_01.prefab
-  artifactKey: Guid(2526e15372c1c1e44b4966a4dabd2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_01.prefab using Guid(2526e15372c1c1e44b4966a4dabd2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dceb9457b6544eff4d3f5c826bf595') in 0.056495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_05.prefab
-  artifactKey: Guid(416ac83775792234691671a06364439f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_05.prefab using Guid(416ac83775792234691671a06364439f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a607f7a111fbc107b1beee6013449f4') in 0.065553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Planks_01.prefab
-  artifactKey: Guid(56e265cae1459944291a604317ed6770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Planks_01.prefab using Guid(56e265cae1459944291a604317ed6770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b24ea15252a64e8936eacbc5e387cb') in 0.062378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Crater_01.prefab
-  artifactKey: Guid(232dc32bdc1f98c43959c6e07e53e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Crater_01.prefab using Guid(232dc32bdc1f98c43959c6e07e53e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec50e45069d8eb049186e0c367241a50') in 0.064433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_03.prefab
-  artifactKey: Guid(75e3ad55edd23a942ae3f8c67c3695e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_03.prefab using Guid(75e3ad55edd23a942ae3f8c67c3695e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f1d8051755886830f61b08c37a68c3') in 0.029823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_04.prefab
-  artifactKey: Guid(39a006c4a95be65428dba1a77fedd690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_04.prefab using Guid(39a006c4a95be65428dba1a77fedd690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f0960e81b8e1f21c352ed7ff3c5d51') in 0.070841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_04.prefab
-  artifactKey: Guid(bc7ab89e0ca8a7f4182138bd14108a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_04.prefab using Guid(bc7ab89e0ca8a7f4182138bd14108a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dd5c05bde97bb7c5590b059e1b9ecf') in 0.050205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_03.prefab
-  artifactKey: Guid(a7dc949e27304124aa91af02d0d5efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_03.prefab using Guid(a7dc949e27304124aa91af02d0d5efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfd6ad1c2aa6800992f95be1eaa680c') in 0.075396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_End_01.prefab
-  artifactKey: Guid(4399025a47354594ea9f0d2929bb2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_End_01.prefab using Guid(4399025a47354594ea9f0d2929bb2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a18df166d168fe30effe7865bb4cd0') in 0.061250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Planks_02.prefab
-  artifactKey: Guid(d2a7cd6d11da9064f88dd51e2a5b2ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Planks_02.prefab using Guid(d2a7cd6d11da9064f88dd51e2a5b2ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066cf36d7f03f2576295ab75567a1e97') in 0.056392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Ladder_02.prefab
-  artifactKey: Guid(704d852be28daa249b8a129f73d5fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Ladder_02.prefab using Guid(704d852be28daa249b8a129f73d5fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eedf6b010621396c41a4b89bef7383a') in 0.045893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_04.prefab
-  artifactKey: Guid(88d316a432aa6854c9ca8f84c4068580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_04.prefab using Guid(88d316a432aa6854c9ca8f84c4068580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a986024f159d50773e3c31482e51e9') in 0.045145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Iron_Sheet_03.prefab
-  artifactKey: Guid(d006b0127e5085c44a72484fda19d791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Iron_Sheet_03.prefab using Guid(d006b0127e5085c44a72484fda19d791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd54e9b9db67c184a521db2a0e6a22a8') in 0.038146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_01.prefab
-  artifactKey: Guid(494267193073d2544943212545d8d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_01.prefab using Guid(494267193073d2544943212545d8d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d942bef25f88ba570c5f4b395f600c') in 0.062928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_NomansLand_01.prefab
-  artifactKey: Guid(193aad36d13fe944a90a75fcac63ab57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_NomansLand_01.prefab using Guid(193aad36d13fe944a90a75fcac63ab57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495606974b56fd4952e2350930d6ee03') in 0.027206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Iron_Sheet_01.prefab
-  artifactKey: Guid(597fc464ef3b80e46a2cab998197b3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Iron_Sheet_01.prefab using Guid(597fc464ef3b80e46a2cab998197b3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de51de7297469aa718561dbfacf4b9e5') in 0.028220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_Tangled_03.prefab
-  artifactKey: Guid(f8b05fd17431435488a358aa37fcac3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_Tangled_03.prefab using Guid(f8b05fd17431435488a358aa37fcac3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68e58bfad6de6594446a377777e8d16') in 0.041944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Tree_Dead_04.prefab
-  artifactKey: Guid(132c8cff3b25a924c9d70198de71f4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Tree_Dead_04.prefab using Guid(132c8cff3b25a924c9d70198de71f4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdbd83a6371e96ac5184da42a4dd329') in 0.055785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_01_Dirt.prefab
-  artifactKey: Guid(261086b21264b204b920c386ae0d3c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_01_Dirt.prefab using Guid(261086b21264b204b920c386ae0d3c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f92fdd7c04fd42b4948c4ed24f23b78') in 0.037373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_02.prefab
-  artifactKey: Guid(303ad27e215e93c4386523812e2ed524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_02.prefab using Guid(303ad27e215e93c4386523812e2ed524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9bed4cb8c7a7b66a72215675ff1b2f') in 0.038219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_Tangled_01.prefab
-  artifactKey: Guid(a79355164405246478fbeec72789fe6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_Tangled_01.prefab using Guid(a79355164405246478fbeec72789fe6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b9324368838af983fc49d0f442a570') in 0.066860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_Tangled_02.prefab
-  artifactKey: Guid(1db7272b8deba454c94bf0ea61a03245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_Tangled_02.prefab using Guid(1db7272b8deba454c94bf0ea61a03245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7cc1153128893beafc4fd80a380879') in 0.043625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Long_01.prefab
-  artifactKey: Guid(1017aba79410f0b459414398cd78a490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Long_01.prefab using Guid(1017aba79410f0b459414398cd78a490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d7802e1476e93f20b4ccbede4c04bb') in 0.057039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Curve_01.prefab
-  artifactKey: Guid(a9dd2857e226c5840825a99147fc99c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Curve_01.prefab using Guid(a9dd2857e226c5840825a99147fc99c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1afc443e31daa39897453139968b4c') in 0.037415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_04.prefab
-  artifactKey: Guid(02af7cec56a6f9e439d6f807c9a52e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_04.prefab using Guid(02af7cec56a6f9e439d6f807c9a52e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84eb663be1a510818e36b69897e99ff') in 0.026153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Bridge_01.prefab
-  artifactKey: Guid(9da57d6930b0adf4fb30d3eff0500538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Trench_Bridge_01.prefab using Guid(9da57d6930b0adf4fb30d3eff0500538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e573ae82dfd3b20d2f6739ffa245c1f') in 0.036522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_02_Dirt.prefab
-  artifactKey: Guid(ac4d900370e573441af9c475476b8aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_02_Dirt.prefab using Guid(ac4d900370e573441af9c475476b8aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b69999ad68ba6d97548775a3f1e1cf') in 0.027606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_03.prefab
-  artifactKey: Guid(0b6e16cc8aa99c344b36d6aec8e03f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_03.prefab using Guid(0b6e16cc8aa99c344b36d6aec8e03f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108db357a96f9ff9b4b0492fe4b8d3fc') in 0.054041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Pole_01.prefab
-  artifactKey: Guid(db5777b3c84f81942afdae41a60f2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Pole_01.prefab using Guid(db5777b3c84f81942afdae41a60f2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26605dd7455319d2b2773c1ee4047dd9') in 0.036357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Ladder_01.prefab
-  artifactKey: Guid(a97e5f1528e777741925062902a7e3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Ladder_01.prefab using Guid(a97e5f1528e777741925062902a7e3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f49318f95491f51469deb22df1eda08') in 0.032231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_01.prefab
-  artifactKey: Guid(d56b073f7e6f6b74c8f249955d5d3d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_01.prefab using Guid(d56b073f7e6f6b74c8f249955d5d3d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1c3d96b9c6c74de758760cb466bf30') in 0.029847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Dirt_01.prefab
-  artifactKey: Guid(f9870aa6a855c2543885c5b3f9ad0448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Dirt_01.prefab using Guid(f9870aa6a855c2543885c5b3f9ad0448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9186dae6f694a7f62a3736705c8e627') in 0.033421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_05.prefab
-  artifactKey: Guid(5267df641ddcd2243bf2030998bcd284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_05.prefab using Guid(5267df641ddcd2243bf2030998bcd284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04812b4b7da1af84150bb0a3f23f3838') in 0.042223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_01.prefab
-  artifactKey: Guid(02fcad3f6351aa94f8ddc67d424cbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Blimp_Piece_01.prefab using Guid(02fcad3f6351aa94f8ddc67d424cbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33304cd4d4759cec6eab70b401775ec9') in 0.064996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Water_02.prefab
-  artifactKey: Guid(99e27e75fd9a9294c8789f476ad9982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Water_02.prefab using Guid(99e27e75fd9a9294c8789f476ad9982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cf7477d3bfd5334375a339359e3356') in 0.070990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Barricade_03.prefab
-  artifactKey: Guid(8626b83308ea22a47883a095bc2c6eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Barricade_03.prefab using Guid(8626b83308ea22a47883a095bc2c6eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87177e2f7de9fa7caba57e095ae84e6') in 0.027280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_01.prefab
-  artifactKey: Guid(ba4790a83f6e8cb45833fff6ed0f3130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Wire_Fence_01.prefab using Guid(ba4790a83f6e8cb45833fff6ed0f3130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a27eff063e0437511c7baa034b5073') in 0.053329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Corner_01.prefab
-  artifactKey: Guid(c4ef890e5f881da47819302386ca82e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Corner_01.prefab using Guid(c4ef890e5f881da47819302386ca82e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbea339b678cfb5f0f6b70729b0dbee') in 0.050440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Zigzag_01.prefab
-  artifactKey: Guid(37627baea50415f49ad0ba10e5af439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Zigzag_01.prefab using Guid(37627baea50415f49ad0ba10e5af439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a073c95dd94d362287a9b8b3934934d9') in 0.056341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Barricade_01.prefab
-  artifactKey: Guid(a06d4e8366d778a4fbfac63b8ecee305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Barricade_01.prefab using Guid(a06d4e8366d778a4fbfac63b8ecee305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9585709b5432adaabd10407a4b37a012') in 0.082594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Transition_01.prefab
-  artifactKey: Guid(cb5334d2415ea9b47817fbf906051a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Transition_01.prefab using Guid(cb5334d2415ea9b47817fbf906051a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f59bd9918021ef7246943dcfcc8165') in 0.037161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Bunker_01.prefab
-  artifactKey: Guid(ec00cb2323bcb794d8a05309d651d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Bunker_01.prefab using Guid(ec00cb2323bcb794d8a05309d651d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9cf4cf3341b21eed12722e50540a08') in 0.090390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_End_02.prefab
-  artifactKey: Guid(81b3ee751b715d944ad080791db040a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_End_02.prefab using Guid(81b3ee751b715d944ad080791db040a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5808cc88ff60e3a3aedb6dd4ce5df457') in 0.034517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Intersection_02.prefab
-  artifactKey: Guid(18375c25c39e9fa49a83343242afe529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Intersection_02.prefab using Guid(18375c25c39e9fa49a83343242afe529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72a34a2027a933df746d82bfe390087') in 0.041751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Intersection_01.prefab
-  artifactKey: Guid(d4624de19eb1ec34281611483afc21f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Intersection_01.prefab using Guid(d4624de19eb1ec34281611483afc21f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73b795afac42aa80f5e30ee1a575786') in 0.034808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_02.prefab
-  artifactKey: Guid(09c5f2290ea9ba748b51c512e7c1a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Insert_02.prefab using Guid(09c5f2290ea9ba748b51c512e7c1a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a171a2600700d5d79e7927e541b4dc9') in 0.025980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Dugout_01.prefab
-  artifactKey: Guid(60483540761098b41ab8a1331e018fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_Dugout_01.prefab using Guid(60483540761098b41ab8a1331e018fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9492ba693f896fc83413cf19b22a52d') in 0.040441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_02.prefab
-  artifactKey: Guid(92d9d53d4abae104090698c30505cdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Deep_Straight_02.prefab using Guid(92d9d53d4abae104090698c30505cdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98dd4c9b36459f1e95fe90e6c6e0377') in 0.056778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_Stairs_01.prefab
-  artifactKey: Guid(924c85676e3759c438a6d745d2a17d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_Stairs_01.prefab using Guid(924c85676e3759c438a6d745d2a17d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc404563af8f92fa6e7536ca98b4edd') in 0.028513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_02.prefab
-  artifactKey: Guid(927ca3205275445499ed1301b9a5532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_02.prefab using Guid(927ca3205275445499ed1301b9a5532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265e4bd1dc2fbbd6c34654ed53730b8c') in 0.032587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_03.prefab
-  artifactKey: Guid(9a2cdccd9fce91b4c8a6fc69e5834b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_03.prefab using Guid(9a2cdccd9fce91b4c8a6fc69e5834b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9139b7a3d230dab49edea00da9bc1f8b') in 0.043894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_01.prefab
-  artifactKey: Guid(6befb667b15bb9c41b2628fea546cd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Mound_01.prefab using Guid(6befb667b15bb9c41b2628fea546cd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666df01f01b10b419c2748d424fca596') in 0.031333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_03.prefab
-  artifactKey: Guid(c98c7d2e72ac2a64a9a46cd6234e8e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Env_Trench_Firestep_03.prefab using Guid(c98c7d2e72ac2a64a9a46cd6234e8e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783636e1f89bed9280f01c35b828fa04') in 0.059346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Barricade_02.prefab
-  artifactKey: Guid(0e4e89f42ae40594cab485db73024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Barricade_02.prefab using Guid(0e4e89f42ae40594cab485db73024bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c1a5457d93a932a387fa210c7154b0') in 0.026518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Iron_Sheet_02.prefab
-  artifactKey: Guid(1d6cac4a511f88a4b973d0e32121eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Environment/SM_Prop_Iron_Sheet_02.prefab using Guid(1d6cac4a511f88a4b973d0e32121eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d1a1b41cdb89ce8ca6c4a917db4cf3') in 0.041315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.757140 seconds.
-  path: Assets/PolygonWarMap/Prefabs/FX
-  artifactKey: Guid(49b8b1e3bbb3861468e7aeb334697296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/FX using Guid(49b8b1e3bbb3861468e7aeb334697296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a78975b700b8153b527a68893ce2f1') in 0.010904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.375698 seconds.
-  path: Assets/PolygonWarMap/Prefabs/Vehicles
-  artifactKey: Guid(34fd0182774092847af6e942daaa06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWarMap/Prefabs/Vehicles using Guid(34fd0182774092847af6e942daaa06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f961caafd1fab57c20091d71e567b19') in 0.009801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.910467 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.010502 seconds 
+  path: Assets/PolygonWar/Prefabs
+  artifactKey: Guid(6bc4c2c5bffa6e54fa5e689d733f5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs using Guid(6bc4c2c5bffa6e54fa5e689d733f5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0668f7f962b8962668db7ba31c22bd6c') in 0.000237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.151463 seconds.
+  path: Assets/PolygonWar/Demo
+  artifactKey: Guid(bbe2e1517f929db46bd4970dbf165678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Demo using Guid(bbe2e1517f929db46bd4970dbf165678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43b8278a55d6dcefdda7f245313b405') in 0.000352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.748189 seconds.
+  path: Assets/PolygonWar/Demo/Demo_1.0.unity
+  artifactKey: Guid(e29c70ca460482f4dbc525893eeacddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Demo/Demo_1.0.unity using Guid(e29c70ca460482f4dbc525893eeacddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170c9da461e694c9ce5d8e01a9220e28') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3598.
+Memory consumption went from 72.9 MB to 72.9 MB.
+Total: 2.646837 ms (FindLiveObjects: 0.201870 ms CreateObjectMapping: 0.072827 ms MarkObjects: 2.359616 ms  DeleteObjects: 0.011973 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 306bfa6df2d96854e1ebb52f3ddacab7 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
