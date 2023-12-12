@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GuCtrl : MonoBehaviour
 {
-    public List<Game
+    public List<GameObject> inventarGun = new List<GameObject>();
     void Start()
     {
         
